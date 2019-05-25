@@ -46,7 +46,7 @@ namespace FluxdayIO_ATQC
         {
             var capabilitiesChrome70 = new DesiredCapabilities("chrome", "70.0", new Platform(PlatformType.Any));
             //capabilitiesChrome70.SetCapability("enableVNC", true);
-            driverChrome70 = new RemoteWebDriver(new Uri("http://172.17.0.1:4444/wd/hub"), capabilitiesChrome70);
+            driverChrome70 = new RemoteWebDriver(new Uri("http://35.232.250.225:4444/wd/hub"), capabilitiesChrome70);
             //driverChrome70.Manage().Window.Size = new System.Drawing.Size(1920, 1080);
             driverChrome70.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
 
@@ -74,7 +74,7 @@ namespace FluxdayIO_ATQC
         {
             var capabilitiesChrome69 = new DesiredCapabilities("chrome", "69.0", new Platform(PlatformType.Any));
             //capabilitiesChrome69.SetCapability("enableVNC", true);
-            driverChrome69 = new RemoteWebDriver(new Uri("http://172.17.0.1:4444/wd/hub"), capabilitiesChrome69);
+            driverChrome69 = new RemoteWebDriver(new Uri("http://35.232.250.225:4444/wd/hub"), capabilitiesChrome69);
             //driverChrome69.Manage().Window.Size = new System.Drawing.Size(1920, 1080);
             driverChrome69.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
 
@@ -101,7 +101,7 @@ namespace FluxdayIO_ATQC
         {
             var capabilitiesFirefox62 = new DesiredCapabilities("firefox", "62.0", new Platform(PlatformType.Any));
             //capabilitiesFirefox62.SetCapability("enableVNC", true);
-            driverFirefox62 = new RemoteWebDriver(new Uri("http://172.17.0.1:4444/wd/hub"), capabilitiesFirefox62);
+            driverFirefox62 = new RemoteWebDriver(new Uri("http://35.232.250.225:4444/wd/hub"), capabilitiesFirefox62);
             //driverFirefox62.Manage().Window.Size = new System.Drawing.Size(1920, 1080);
             driverFirefox62.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
 
@@ -128,7 +128,7 @@ namespace FluxdayIO_ATQC
         {
             var capabilitiesFirefox63 = new DesiredCapabilities("firefox", "63.0", new Platform(PlatformType.Any));
             //capabilitiesFirefox63.SetCapability("enableVNC", true);
-            driverFirefox63 = new RemoteWebDriver(new Uri("http://172.17.0.1:4444/wd/hub"), capabilitiesFirefox63);
+            driverFirefox63 = new RemoteWebDriver(new Uri("http://35.232.250.225:4444/wd/hub"), capabilitiesFirefox63);
             //driverFirefox63.Manage().Window.Size = new System.Drawing.Size(1920, 1080);
             driverFirefox63.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
 
@@ -155,7 +155,7 @@ namespace FluxdayIO_ATQC
         {
             var capabilitiesOpera55 = new DesiredCapabilities("opera", "55.0", new Platform(PlatformType.Any));
             //capabilitiesOpera55.SetCapability("enableVNC", true);
-            driverOpera55 = new RemoteWebDriver(new Uri("http://172.17.0.1:4444/wd/hub"), capabilitiesOpera55);
+            driverOpera55 = new RemoteWebDriver(new Uri("http://35.232.250.225:4444/wd/hub"), capabilitiesOpera55);
             //driverOpera55.Manage().Window.Size = new System.Drawing.Size(1920, 1080);
             driverOpera55.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
 
@@ -182,7 +182,7 @@ namespace FluxdayIO_ATQC
         {
             var capabilitiesOpera56 = new DesiredCapabilities("opera", "56.0", new Platform(PlatformType.Any));
             //capabilitiesOpera56.SetCapability("enableVNC", true);
-            driverOpera56 = new RemoteWebDriver(new Uri("http://172.17.0.1:4444/wd/hub"), capabilitiesOpera56);
+            driverOpera56 = new RemoteWebDriver(new Uri("http://35.232.250.225:4444/wd/hub"), capabilitiesOpera56);
             //driverOpera56.Manage().Window.Size = new System.Drawing.Size(1920, 1080);
             driverOpera56.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
 
