@@ -44,10 +44,10 @@ namespace FluxdayIO_ATQC
         [Test]
         public void TestChrome70()
         {
-            var capabilitiesChrome70 = new DesiredCapabilities("chrome", "70.0", new Platform(PlatformType.Any));
-            //capabilitiesChrome70.SetCapability("enableVNC", true);
+            var capabilitiesChrome70 = new DesiredCapabilities("chrome", "73.0", new Platform(PlatformType.Any));
+            capabilitiesChrome70.SetCapability("enableVNC", true);
             driverChrome70 = new RemoteWebDriver(new Uri("http://35.232.250.225:4444/wd/hub"), capabilitiesChrome70);
-            //driverChrome70.Manage().Window.Size = new System.Drawing.Size(1920, 1080);
+            driverChrome70.Manage().Window.Size = new System.Drawing.Size(1920, 1080);
             driverChrome70.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
 
             driverChrome70.Navigate().GoToUrl("https://app.fluxday.io/users/sign_in");
@@ -72,10 +72,10 @@ namespace FluxdayIO_ATQC
         [Test]
         public void TestChrome69()
         {
-            var capabilitiesChrome69 = new DesiredCapabilities("chrome", "69.0", new Platform(PlatformType.Any));
-            //capabilitiesChrome69.SetCapability("enableVNC", true);
+            var capabilitiesChrome69 = new DesiredCapabilities("chrome", "74.0", new Platform(PlatformType.Any));
+            capabilitiesChrome69.SetCapability("enableVNC", true);
             driverChrome69 = new RemoteWebDriver(new Uri("http://35.232.250.225:4444/wd/hub"), capabilitiesChrome69);
-            //driverChrome69.Manage().Window.Size = new System.Drawing.Size(1920, 1080);
+            driverChrome69.Manage().Window.Size = new System.Drawing.Size(1920, 1080);
             driverChrome69.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
 
             driverChrome69.Navigate().GoToUrl("https://app.fluxday.io/users/sign_in");
@@ -99,10 +99,10 @@ namespace FluxdayIO_ATQC
         [Test]
         public void TestFirefox62()
         {
-            var capabilitiesFirefox62 = new DesiredCapabilities("firefox", "62.0", new Platform(PlatformType.Any));
-            //capabilitiesFirefox62.SetCapability("enableVNC", true);
+            var capabilitiesFirefox62 = new DesiredCapabilities("firefox", "66.0", new Platform(PlatformType.Any));
+           capabilitiesFirefox62.SetCapability("enableVNC", true);
             driverFirefox62 = new RemoteWebDriver(new Uri("http://35.232.250.225:4444/wd/hub"), capabilitiesFirefox62);
-            //driverFirefox62.Manage().Window.Size = new System.Drawing.Size(1920, 1080);
+            driverFirefox62.Manage().Window.Size = new System.Drawing.Size(1920, 1080);
             driverFirefox62.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
 
             driverFirefox62.Navigate().GoToUrl("https://app.fluxday.io/users/sign_in");
@@ -126,10 +126,10 @@ namespace FluxdayIO_ATQC
         [Test]
         public void TestFirefox63()
         {
-            var capabilitiesFirefox63 = new DesiredCapabilities("firefox", "63.0", new Platform(PlatformType.Any));
-            //capabilitiesFirefox63.SetCapability("enableVNC", true);
+            var capabilitiesFirefox63 = new DesiredCapabilities("firefox", "67.0", new Platform(PlatformType.Any));
+            capabilitiesFirefox63.SetCapability("enableVNC", true);
             driverFirefox63 = new RemoteWebDriver(new Uri("http://35.232.250.225:4444/wd/hub"), capabilitiesFirefox63);
-            //driverFirefox63.Manage().Window.Size = new System.Drawing.Size(1920, 1080);
+            driverFirefox63.Manage().Window.Size = new System.Drawing.Size(1920, 1080);
             driverFirefox63.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
 
             driverFirefox63.Navigate().GoToUrl("https://app.fluxday.io/users/sign_in");
@@ -153,10 +153,10 @@ namespace FluxdayIO_ATQC
         //[Test]
         public void TestOpera55()
         {
-            var capabilitiesOpera55 = new DesiredCapabilities("opera", "55.0", new Platform(PlatformType.Any));
-            //capabilitiesOpera55.SetCapability("enableVNC", true);
+            var capabilitiesOpera55 = new DesiredCapabilities("opera", "58.0", new Platform(PlatformType.Any));
+            capabilitiesOpera55.SetCapability("enableVNC", true);
             driverOpera55 = new RemoteWebDriver(new Uri("http://35.232.250.225:4444/wd/hub"), capabilitiesOpera55);
-            //driverOpera55.Manage().Window.Size = new System.Drawing.Size(1920, 1080);
+            driverOpera55.Manage().Window.Size = new System.Drawing.Size(1920, 1080);
             driverOpera55.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
 
             driverOpera55.Navigate().GoToUrl("https://app.fluxday.io/users/sign_in");
@@ -180,7 +180,7 @@ namespace FluxdayIO_ATQC
         //[Test]
         public void TestOpera56()
         {
-            var capabilitiesOpera56 = new DesiredCapabilities("opera", "56.0", new Platform(PlatformType.Any));
+            var capabilitiesOpera56 = new DesiredCapabilities("opera", "60.0", new Platform(PlatformType.Any));
             //capabilitiesOpera56.SetCapability("enableVNC", true);
             driverOpera56 = new RemoteWebDriver(new Uri("http://35.232.250.225:4444/wd/hub"), capabilitiesOpera56);
             //driverOpera56.Manage().Window.Size = new System.Drawing.Size(1920, 1080);
